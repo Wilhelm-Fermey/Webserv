@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="icon" href="./favicon.ico" />
+        <!-- <meta charset="utf-8"> -->
+        <title>werbserv 42 form delete</title>
+        <style>
+            form.form-example {
+                display: table;
+            }
+
+            div.form-example {
+                display: table-row;
+            }
+            p,
+            label {
+                font: 1rem 'Fira Sans', sans-serif;
+            }
+
+            input {
+                margin: .4rem;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+      <a href="./index.html">"<-- Go to the home page" </a> <br> <br>
+      <form action="" method="post" class="form-example">
+        <fieldset>
+          <legend>Delete file ?</legend>
+      
+          <div>
+            <input type="radio" id="YES" name="DELETE_file_for_delete" value="YES"
+                   checked>
+            <label for="YES">YES</label>
+          </div>
+      
+          <div>
+            <input type="radio" id="NO" name="DELETE_file_for_delete" value="NO">
+            <label for="NO">NO</label>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+      
+       </fieldset>
+      
+      </form>
+
+    </body>
+</html>
